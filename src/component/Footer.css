@@ -1,0 +1,63 @@
+.footer {
+    background-color: #C32148;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer p, .footer a {
+    margin: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-media li {
+    margin: 5px 0;
+  }
+  .social-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: #C32148; /* Your button background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 25px 25px 0; /* Rounded corners on the right side */
+    cursor: pointer;
+    font-size: 1.5rem; /* Increase icon size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust width to your preference */
+    height: 50px; /* Adjust height to your preference */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #A01A3B; /* Change background color on hover */
+  }
+  
