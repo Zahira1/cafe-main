@@ -5,7 +5,7 @@ import Buff_momo from './assets/Buff_momo.jpg';
 import chhoila from './assets/Buff-chhoila-recipe.jpg';
 import thaliSet from './assets/nepali-thali-set.jpg';
 import selroti from './assets/selroti.jpg';
-
+import chickenChilli from './assets/chickenChilli.png'
 
 // Import slick-carousel css files
 import "slick-carousel/slick/slick.css";
@@ -30,14 +30,14 @@ const Home = () => {
             <img src={Buff_momo} alt="Sausage on Stick" className="home-image" />
             <div className="image-overlay">
               <h1 className="image-title">MO:MO</h1>
-              <p className="image-description">Premium chicken sausages deep fried & coated with garlic Schezwan Rub.</p>
+              <p className="image-description">Aromatic Chicken Dumplings with Tomato based sauce.</p>
             </div>
           </div>
           <div className="image-container">
             <img src={chhoila} alt="Image 2" className="home-image" />
             <div className="image-overlay">
-              <h1 className="image-title">SPICY BUFF CHHOILA</h1>
-              <p className="image-description">Description for image 2.</p>
+              <h1 className="image-title">SPICY CHICKEN CHHOILA</h1>
+              <p className="image-description">Grilled chicken with aromatic herbs and spices.</p>
             </div>
           </div>
           <div className="image-container">
@@ -48,10 +48,10 @@ const Home = () => {
             </div>            
           </div>
           <div className="image-container">
-            <img src={selroti} alt="Image 3" className="home-image" />
+            <img src={chickenChilli} alt="Image 3" className="home-image" />
             <div className="image-overlay">
-              <h1 className="image-title">NEPALI THALI</h1>
-              <p className="image-description">Description for image 3.</p>
+              <h1 className="image-title">Chicken Chilli</h1>
+              <p className="image-description">Fried chicken mixed in sweet, sour and spicy sauce</p>
             </div>
           </div>
         </Slider>

@@ -31,13 +31,13 @@ function App() {
         <div className="container header text-center py-3">
           <div className="title h1">Aroma Indian & Nepalese Cuisine</div>
           <div className="subtitle bg-warning text-black d-inline-block px-3 py-1 mt-2 rounded">
-            Flavors from India and Nepal
+            Authentic Flavors from India and Nepal
           </div>
           <nav className="nav justify-content-center mt-3">
-            <div className='btn-group' role="group" aria-label="Menu-btn">
+            <div className='btn-group btn-group-lg' role="group" aria-label="Menu-btn">
               <button className="btn btn-primary nav-btn home" onClick={() => setCurrentSection('Home')}>Home</button>
               <button className="btn btn-primary  nav-btn menu" onClick={() => setCurrentSection('Menu')}>Menu</button>
-              <button className="btn btn-primary  nav-btn order" onClick={() => setCurrentSection('Order Online')}>Order Online</button>
+              <a href= "https://order.tbdine.com/pickup/52893"className="btn btn-primary  nav-btn order" >Order Online</a>
               <button className="btn btn-primary  nav-btn delivery" onClick={() => setCurrentSection('Delivery')}>Delivery</button>
             </div>
           </nav>
